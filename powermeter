@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while [ true  ]
+    do
+    ps -u -ax | grep 'Prosvet' | grep -v 'grep\|powermeter'
+    sleep 0.1
+    done
